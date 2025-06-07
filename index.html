@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De la Casa - Salsas con Auténtico Sabor Casero</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./img/logo_dlc.png" with="120" height="120" alt="De la Casa Logo">
+                    <h1>De la Casa</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#salsas">Nuestras Salsas</a></li>
+                    <li><a href="#recetas">Recetas</a></li>
+                    <li><a href="#nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <a href="https://wa.me/573057134568" target="_blank" class="cta-button"><i class="fab fa-whatsapp"></i>
+                    Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="hero-badge">Sabores 100% Caseros</span>
+            <h2>El auténtico sabor de la casa en cada cucharada</h2>
+            <p>Salsas artesanales elaboradas con ingredientes naturales y recetas tradicionales que te harán recordar el
+                sabor de la comida casera.</p>
+            <a href="#salsas" class="cta-button">Descubrir Sabores</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h3>¿Por qué elegir nuestras salsas?</h3>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Ahorra tiempo sin sacrificar calidad</h4>
+                        <p>Nuestras salsas están listas para servir, con el mismo sabor casero que tomaría horas
+                            preparar.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <div class="feature-icon">
+                            <i class="fas fa-carrot fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Ingredientes 100% naturales</h4>
+                        <p>Sin conservantes artificiales, utilizamos solo ingredientes frescos y de la mejor calidad.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <div class="feature-icon">
+                            <i class="fas fa-utensils fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h4>Recetas familiares tradicionales</h4>
+                        <p>Cada salsa proviene de recetas transmitidas por generaciones, manteniendo el auténtico sabor
+                            casero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="salsas">
+        <div class="container">
+            <div class="section-title">
+                <h3>Nuestras Salsas Artesanales</h3>
+            </div>
+            <div class="product-slider-container">
+                <div class="carousel-arrow carousel-prev" onclick="scrollSlider(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="carousel-arrow carousel-next" onclick="scrollSlider(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="product-slider" id="productSlider">
+                    
+                    <!-- PRODUCTO 1: Salsa Tipo Ceviche -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <!-- ✅ AGREGAR IMÁGENES AQUÍ - Cada <img> será una imagen del carrusel -->
+                            <img src="./img/pexels-janine-speidel-1933619854-28956908.jpg" alt="Salsa Tipo Ceviche - Principal" width="280" height="200">
+                            <img src="./img/salsa-en-crudo-de-tomates-en-laminas-cebolletas-tiernas-y-especias-al-gusto.jpg" alt="Salsa Tipo Ceviche - Detalle" width="280" height="200">
+                            <img src="./img/pexels-sergio-arreola-208344354-24182335.jpg" alt="Salsa Tipo Ceviche - Detalle" width="280" height="200">
+                            <!-- Puedes agregar más imágenes aquí -->
+                            <!-- <img src="./img/otra-imagen-ceviche.jpg" alt="Salsa Tipo Ceviche - Presentación" width="280" height="200"> -->
+                        </div>
+                        <div class="product-content">
+                            <span class="product-badge">Más vendida</span>
+                            <h4 class="product-title">Salsa Tipo Ceviche</h4>
+                            <p class="product-description">Una explosión de frescura con limón, cilantro y ají. Perfecta para acompañar empanadas y snacks.</p>
+                            <div class="product-price">
+                                <span class="price">$15.900</span>
+                                <button class="cta-button" onclick="window.open('https://wa.me/573057134568', '_blank')">
+                                    <i class="fab fa-whatsapp"></i> Pedir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- PRODUCTO 2: Salsa Casera de Maracuyá -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <!-- ✅ AGREGAR IMÁGENES AQUÍ - Cada <img> será una imagen del carrusel -->
+                            <img src="./img/pexels-evgeniya-davydova-35773675-14766334.jpg" alt="Salsa Tipo Ceviche - Principal" width="280" height="200">
+                            <img src="./img/pexels-nadin-sh-78971847-18510261.jpg" alt="Salsa Tipo Ceviche - Detalle" width="280" height="200">
+                            <img src="./img/pexels-nadin-sh-78971847-18510262.jpg" alt="Salsa Tipo Ceviche - Detalle" width="280" height="200">
+                            <!-- <img src="./img/maracuya-detalle.jpg" alt="Salsa Casera de Maracuyá - Detalle" width="280" height="200"> -->
+                            <!-- <img src="./img/maracuya-presentacion.jpg" alt="Salsa Casera de Maracuyá - Presentación" width="280" height="200"> -->
+                        </div>
+                        <div class="product-content">
+                            <span class="product-badge">Nueva receta</span>
+                            <h4 class="product-title">Salsa Casera de Maracuyá</h4>
+                            <p class="product-description">Con ajo asado y especias frescas. Ideal para carnes, pastas y panes artesanales.</p>
+                            <div class="product-price">
+                                <span class="price">$18.900</span>
+                                <button class="cta-button" onclick="window.open('https://wa.me/573057134568', '_blank')">
+                                    <i class="fab fa-whatsapp"></i> Pedir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- PRODUCTO 3: Salsa Criolla Gourmet -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <!-- ✅ AGREGAR IMÁGENES AQUÍ - Cada <img> será una imagen del carrusel -->
+                            <img src="./img/criolla.jpg" alt="Salsa Criolla Gourmet - Principal" width="280" height="200">
+                            <!-- Puedes agregar más imágenes aquí -->
+                            <!-- <img src="./img/criolla-ingredientes.jpg" alt="Salsa Criolla Gourmet - Ingredientes" width="280" height="200"> -->
+                            <!-- <img src="./img/criolla-uso.jpg" alt="Salsa Criolla Gourmet - En uso" width="280" height="200"> -->
+                        </div>
+                        <div class="product-content">
+                            <span class="product-badge">Tradicional</span>
+                            <h4 class="product-title">Salsa Criolla Gourmet</h4>
+                            <p class="product-description">Receta tradicional con cebolla, tomate y especias secretas. El acompañante perfecto para tus asados.</p>
+                            <div class="product-price">
+                                <span class="price">$16.900</span>
+                                <button class="cta-button" onclick="window.open('https://wa.me/573057134568', '_blank')">
+                                    <i class="fab fa-whatsapp"></i> Pedir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- PRODUCTO 4: Salsa de Aguacate -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <!-- ✅ AGREGAR IMÁGENES AQUÍ - Cada <img> será una imagen del carrusel -->
+                            <img src="./img/EOSIKSK73ZHEXMPAJ4Z5IEOHM4.avif" alt="Salsa Tipo Ceviche - Principal" width="280" height="200">
+                            <img src="./img/pexels-isabella-mendes-107313-4411802.jpg" alt="Salsa Tipo Ceviche - Detalle" width="280" height="200">
+                            <img src="./img/pexels-rdne-5737254.jpg" alt="Salsa Tipo Ceviche - Detalle" width="280" height="200">
+                            <!-- Puedes agregar más imágenes aquí -->
+                            <!-- <img src="./img/aguacate-cremosa.jpg" alt="Salsa de Aguacate - Textura" width="280" height="200"> -->
+                            <!-- <img src="./img/aguacate-nachos.jpg" alt="Salsa de Aguacate - Con nachos" width="280" height="200"> -->
+                        </div>
+                        <div class="product-content">
+                            <span class="product-badge">Premium</span>
+                            <h4 class="product-title">Salsa de Aguacate</h4>
+                            <p class="product-description">Cremosa y fresca, elaborada con aguacates maduros seleccionados. Excelente para nachos y tacos.</p>
+                            <div class="product-price">
+                                <span class="price">$19.900</span>
+                                <button class="cta-button" onclick="window.open('https://wa.me/573057134568', '_blank')">
+                                    <i class="fab fa-whatsapp"></i> Pedir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h3>Lo que dicen nuestros clientes</h3>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-content">"Gracias a 'De la Casa', mis reuniones ahora son el centro de
+                        atención. Las salsas son tan auténticas que todos piensan que las hago yo. ¡Increíble!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-image"></div>
+                        <div class="author-info">
+                            <h5>Yesica Soto</h5>
+                            <p>Organizadora de eventos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-content">"Por fin encontré salsas que saben como las caseras pero sin tener
+                        que pasar horas en la cocina. La salsa tipo ceviche es mi favorita y nunca falta en mi mesa."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-image"></div>
+                        <div class="author-info">
+                            <h5>Lina Muñoz</h5>
+                            <p>Amante de la cocina</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-content">"Siempre tengo invitados en casa y no tengo mucho tiempo para
+                        cocinar. Con las salsas De la Casa logro darle un toque especial a mis platos sin esfuerzo.
+                        ¡100% recomendadas!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-image"></div>
+                        <div class="author-info">
+                            <h5>Carolina Rendón</h5>
+                            <p>Anfitriona social</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="comprar">
+        <div class="container">
+            <h3>¿Listo para sorprender a tus invitados?</h3>
+            <p>Aprovecha nuestra oferta de lanzamiento y recibe un 15% de descuento en tu primera compra.</p>
+            <a href="https://wa.me/573057134568" target="_blank" class="cta-button"><i class="fab fa-whatsapp"></i>
+                Contáctanos por WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>De la Casa</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#salsas">Nuestras Salsas</a></li>
+                        <li><a href="#recetas">Recetas</a></li>
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Productos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Salsa Tipo Ceviche</a></li>
+                        <li><a href="#">Salsa Casera de Ajo</a></li>
+                        <li><a href="#">Salsa Criolla Gourmet</a></li>
+                        <li><a href="#">Salsa de Aguacate</a></li>
+                        <li><a href="#">Paquetes Especiales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-contact">
+                    <h4>Contáctanos</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Cali, Valle del Cauca, Colombia</p>
+                    <p><i class="fas fa-phone"></i> +57 305 713 4568</p>
+                    <p><i class="fas fa-envelope"></i> info@delacasa.com.co</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/573057134568" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Horario de Atención</h4>
+                    <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                    <p>Sábados: 9:00 AM - 2:00 PM</p>
+                    <p>Domingos: Cerrado</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 De la Casa - Salsas Artesanales. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/product.js"></script>
+</body>
+
+</html>

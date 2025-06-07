@@ -1,0 +1,22 @@
+proyecto-salsas-de-la-casa/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+└── img/
+    ├── logo.png
+    ├── hero-background.jpg
+    └── productos/
+        ├── salsa-ceviche-1.jpg
+        ├── salsa-ceviche-2.jpg
+        ├── salsa-ceviche-3.jpg
+        ├── salsa-ajo-1.jpg
+        ├── salsa-ajo-2.jpg
+        ├── salsa-ajo-3.jpg
+        ├── salsa-criolla-1.jpg
+        ├── salsa-criolla-2.jpg
+        ├── salsa-criolla-3.jpg
+        ├── salsa-aguacate-1.jpg
+        ├── salsa-aguacate-2.jpg
+        └── salsa-aguacate-3.jpg
